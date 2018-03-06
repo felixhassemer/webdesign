@@ -5,8 +5,7 @@
 
   </head>
   <body>
-    <p5Circles></p5Circles>
-    <canv></canv>
+    <myCanvas></myCanvas>
   </body>
 
   </html>
@@ -14,18 +13,15 @@
 </template>
 
 <script src="../libraries/p5.js" type="text/javascript"></script>
-<script src="./js/sketch.js"></script>
+<script src="./scripts/sketch.js"></script>
 
 <script>
-import p5Circles from './components/p5Circles.vue';
-import canv from './components/canvas.vue';
-
+import myCanvas from './components/myCanvas.vue';
 
 export default {
   name: 'App',
   components: {
-    p5Circles,
-    canv
+    myCanvas
   }
 }
 </script>

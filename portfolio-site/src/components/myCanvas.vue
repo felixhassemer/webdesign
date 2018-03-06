@@ -1,12 +1,15 @@
 <template>
-  <div>
+  <div id="canvContainer">
 
   </div>
 </template>
 
 <script>
+import sketch from '../scripts/sketch.js'
+
 export default {
-  name: 'canv',
+  name: 'myCanvas',
+
   data() {
     return {
 
@@ -17,5 +20,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#canvContainer {
+  padding: 0;
+  scrollbars: both;
+}
 
 </style>
