@@ -18,18 +18,18 @@
 <script src="./scripts/sketch.js"></script>
 
 <script>
-import myCanvas from './components/myCanvas.vue';
+// import myCanvas from './components/myCanvas.vue';
 import gallery from './components/gallery.vue';
 
 export default {
   name: 'App',
   data() {
     return {
-      showCanvas: true
+      // showCanvas: true
     };
   },
   components: {
-    myCanvas,
+    // myCanvas,
     gallery
   }
 }
