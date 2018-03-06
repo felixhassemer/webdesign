@@ -22,6 +22,7 @@ export default {
 <style scoped>
 #canvContainer {
   padding: 0;
+  margin: 0;
   scrollbars: both;
 }
 
