@@ -1,8 +1,10 @@
 <template>
   <div id="topsection">
-    <div id="logo"></div>
+    <div id="logo">
+      <img src="../assets/logo.png" />
+    </div>
     <div class="">
-      <h1>Hi, I'm Felix.</h1>
+      <h1>Hallo, ich bin Felix.</h1>
       <p>I'm a freelance designer / graphic artist from Trier, Germany. I work with typography, generative design and 3D.</p>
     </div>
 
