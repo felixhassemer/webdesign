@@ -1,11 +1,5 @@
 <template>
   <div id="gallery">
-    <div id="logo"></div>
-    <div class="content intro">
-      <h1>Hi, I'm Felix.</h1>
-      <p>I'm a freelance designer / graphic artist from Trier, Germany. I work with typography, generative design and 3D.</p>
-    </div>
-
     <div class="grid">
 
       <a href="./projects/ba_processing-generative.html" target="_blank" class="project-container">
