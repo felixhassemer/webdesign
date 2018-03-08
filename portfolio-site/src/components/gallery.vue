@@ -8,7 +8,7 @@
           <img src="../assets/img/bachelor/autodrawing-1.png" alt="" class="image">
         </div>
       </a>
-      
+
       <!-- Bachlorausstellung 2017 -->
       <a href="./projects/ba_exhibition.html" target="_blank" class="project-container">
         <div class="project">
@@ -62,25 +62,27 @@ export default {
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-flow: row;
+  /* grid-auto-flow: row; */
   grid-gap: 15px;
   padding: 0px;
 }
 
 /*---------------    PROJEKTGALERIE       -----------------*/
-img {
-  width: 200px;
-}
 
-/* .project-container {
+
+.project-container {
   padding: 0;
   opacity: 1;
-  grid-column: span 6;
+  grid-column: span 12;
   overflow: hidden;
   position: relative;
   text-decoration: none;
   background-color: #eee;
-} */
+}
+
+.image {
+  width: 200px;
+}
 
 /* .image {
   width: 50%;

@@ -1,26 +1,26 @@
 <template>
   <html lang="de">
-
   <head>
 
   </head>
+
   <body id="app">
-    <topsection></topsection>
+    <img id="logo" src="./assets/logo.png" alt="Felix Hassemer Logo"/>
+
+    <!-- <about></about> -->
     <gallery></gallery>
-    <!-- <myCanvas v-show="showCanvas"></myCanvas> -->
-    <!-- <button @click="showCanvas = !showCanvas">Press me</button> -->
   </body>
 
   </html>
 
 </template>
 
+<link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
 <script src="../libraries/p5.js" type="text/javascript"></script>
 <script src="./scripts/sketch.js"></script>
 
 <script>
-// import myCanvas from './components/myCanvas.vue';
-import topsection from './components/topsection.vue';
+import about from './components/about.vue';
 import gallery from './components/gallery.vue';
 
 
@@ -28,12 +28,11 @@ export default {
   name: 'App',
   data() {
     return {
-      // showCanvas: true
+
     };
   },
   components: {
-    // myCanvas,
-    topsection,
+    about,
     gallery
   }
 }
@@ -68,5 +67,15 @@ h4 {font-size: 1.728em;}
 h3 {font-size: 2.074em;}
 h2 {font-size: 2.488em;}
 h1 {font-size: 3.583em;}
+
+#app {
+}
+
+
+#logo {
+  padding: 20px;
+  width: 15vw;
+  max-width: 80px;
+}
 
 </style>
