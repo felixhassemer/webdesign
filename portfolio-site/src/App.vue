@@ -5,8 +5,8 @@
   </head>
 
   <body id="app">
-    <img id="logo" src="./assets/logo.png" alt="Felix Hassemer Logo"/>
 
+    <navigation></navigation>
     <!-- <about></about> -->
     <gallery></gallery>
   </body>
@@ -20,6 +20,7 @@
 <script src="./scripts/sketch.js"></script>
 
 <script>
+import navigation from './components/navigation.vue';
 import about from './components/about.vue';
 import gallery from './components/gallery.vue';
 
@@ -32,6 +33,7 @@ export default {
     };
   },
   components: {
+    navigation,
     about,
     gallery
   }
@@ -45,7 +47,7 @@ body {
   margin: 0;
   padding: 0;
   /* overflow-x: hidden; /* hide horizontal scroll bars */
-  font-size: 20px;       /* base font size */
+  font-size: 12px;       /* base font size */
   line-height: 1.4;      /* base line height */
 }
 
@@ -67,15 +69,5 @@ h4 {font-size: 1.728em;}
 h3 {font-size: 2.074em;}
 h2 {font-size: 2.488em;}
 h1 {font-size: 3.583em;}
-
-#app {
-}
-
-
-#logo {
-  padding: 20px;
-  width: 15vw;
-  max-width: 80px;
-}
 
 </style>
