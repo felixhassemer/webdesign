@@ -7,8 +7,8 @@
   <body id="app">
 
     <navigation></navigation>
-    <!-- <about></about> -->
-    <gallery></gallery>
+    <about v-if="aboutCurrent"></about>
+    <gallery v-if="homeCurrent"></gallery>
   </body>
 
   </html>
@@ -29,7 +29,9 @@ export default {
   name: 'App',
   data() {
     return {
-
+      homeCurrent: true,
+      aboutCurrent: false,
+      contactCurrent: false
     };
   },
   components: {
@@ -43,9 +45,10 @@ export default {
 <style>
 
 body {
-  background-color: #e9dece;
+  background-color: #f6ece4;
   margin: 0;
   padding: 0;
+  margin-top: 4em;
   /* overflow-x: hidden; /* hide horizontal scroll bars */
   font-size: 12px;       /* base font size */
   line-height: 1.4;      /* base line height */
