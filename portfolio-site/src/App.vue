@@ -5,47 +5,33 @@
   </head>
 
   <body id="app">
-
-    <navigation></navigation>
-    <about v-if="aboutCurrent"></about>
-    <gallery v-if="homeCurrent"></gallery>
+    <app-nav></app-nav>
+    <router-view></router-view>
   </body>
 
   </html>
 
 </template>
 
-<link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
-<script src="../libraries/p5.js" type="text/javascript"></script>
-<script src="./scripts/sketch.js"></script>
+<!-- <script src="../libraries/p5.js" type="text/javascript"></script>
+<script src="./scripts/sketch.js"></script> -->
 
 <script>
-import navigation from './components/navigation.vue';
-import about from './components/about.vue';
-import gallery from './components/gallery.vue';
-
-
 export default {
   name: 'App',
   data() {
     return {
-      homeCurrent: true,
-      aboutCurrent: false,
-      contactCurrent: false
+
     };
-  },
-  components: {
-    navigation,
-    about,
-    gallery
   }
 }
 </script>
 
 <style>
+@import '../node_modules/normalize.css/normalize.css';
 
 body {
-  background-color: #f6ece4;
+  background-color: #f1e9e3;
   margin: 0;
   padding: 0;
   margin-top: 4em;

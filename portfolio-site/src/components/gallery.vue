@@ -65,7 +65,7 @@
 <script>
 
 export default {
-  name: 'gallery',
+  name: 'Gallery',
 
   data() {
     return {

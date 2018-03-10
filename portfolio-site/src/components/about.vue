@@ -3,7 +3,7 @@
 
     <div id="intro">
       <h2>Hello, <br> I'm Felix.</h2>
-      <p id="description">I'm a graphic designer from Germany. My work revolves around typography, generative design and 3D.</p>
+      <p id="description">I'm a graphic designer from Germany. <br> My work revolves around typography, generative design and 3D.</p>
     </div>
 
   </div>
@@ -12,7 +12,7 @@
 <script>
 
 export default {
-  name: 'about'
+  name: 'About'
 }
 </script>
 
@@ -20,8 +20,7 @@ export default {
 <style scoped>
 
   #about {
-    padding: 20px;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 4em);
   }
 
   #intro {

@@ -8,7 +8,7 @@
 import sketch from '../scripts/sketch.js'
 
 export default {
-  name: 'myCanvas',
+  name: 'SketchCanvas',
 
   data() {
     return {

@@ -1,9 +1,11 @@
 <template>
   <header class="navbar" v-bind:class="{'nav-up' : this.scrolledUp}">
-    <img id="logo" src="../assets/logo.png" alt="Felix Hassemer Logo"/>
+    <router-link to="/">
+      <img id="logo" src="../assets/logo.png" alt="Felix Hassemer Logo"/>
+    </router-link>
     <div id="links">
-      <a href="">about</a>
-      <a href="">contact</a>
+      <router-link to="/about" active-class="active">about</router-link>
+      <router-link to="/contact" active-class="active">contact</router-link>
     </div>
   </header>
 </template>
@@ -11,7 +13,7 @@
 <script>
 
 export default {
-  name: 'navigation',
+  name: 'Navigation',
   data() {
     return {
       scrolledUp: false,
@@ -23,8 +25,6 @@ export default {
       var newY = window.scrollY;
       var up = 0;
       var down = 0;
-
-      // console.log(newY-this.oldY);
 
       if (newY > this.oldY) {
         this.scrolledUp = true;
@@ -48,7 +48,7 @@ export default {
 <style scoped>
 
 header {
-  background-color: #f6ece4;
+  background-color: #f1e9e3;
   position: fixed;
   top: 0;
   height: 4em;
@@ -86,6 +86,10 @@ header {
 
 #links a:hover {
   border-bottom: solid 1px;
+}
+
+.active {
+  font-weight: bold;
 }
 
 </style>
