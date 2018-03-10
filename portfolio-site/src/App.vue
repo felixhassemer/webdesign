@@ -6,7 +6,10 @@
 
   <body id="app">
     <app-nav></app-nav>
-    <router-view></router-view>
+
+    <transition name="page" mode="out-in">
+      <router-view></router-view>
+    </transition>
   </body>
 
   </html>
@@ -58,5 +61,19 @@ h4 {font-size: 1.728em;}
 h3 {font-size: 2.074em;}
 h2 {font-size: 2.488em;}
 h1 {font-size: 3.583em;}
+
+.page-enter-active, .page-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.page-enter {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.page-leave-to {
+  transform: translateX(-50px);
+  opacity: 0;
+}
 
 </style>
