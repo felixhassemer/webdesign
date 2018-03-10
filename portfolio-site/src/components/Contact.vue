@@ -1,5 +1,8 @@
 <template>
   <div id="contact">
+    <p>
+      some stuff about my contact details
+    </p>
   </div>
 </template>
 

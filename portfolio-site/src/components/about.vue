@@ -3,7 +3,10 @@
 
     <div id="intro">
       <h2>Hello, <br> I'm Felix.</h2>
-      <p id="description">I'm a graphic designer from Germany. <br> My work revolves around typography, generative design and 3D.</p>
+      <p id="description">
+        I'm a graphic designer from Germany. <br>
+        My work revolves around typography, generative design and 3D. <br>
+      </p>
     </div>
 
   </div>
