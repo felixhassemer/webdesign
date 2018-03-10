@@ -3,60 +3,60 @@
     <div class="grid">
 
       <!-- Bachelor Projekt -->
-      <a href="./ps/ba_processing-generative.html" target="_blank" class="p-container">
+      <router-link to="/projects/bachelor" class="p-container">
         <div class="p">
-          <img src="../assets/img/bachelor/autodrawing-1.png" alt="" class="p-cover">
+          <img src="../assets/project_gallery/Bachelor_cover.png" alt="" class="p-cover">
           <h6 class="p-title">Processing: Generative Design</h6>
           <p class="p-description">
             My bachelor thesis. A solely digital work, an experiment in learning.
           </p>
         </div>
-      </a>
+      </router-link>
 
       <!-- Bachlorausstellung 2017 -->
-      <a href="./ps/ba_exhibition.html" target="_blank" class="p-container">
+      <router-link to="/projects/bachelor_exhibition" class="p-container">
         <div class="p">
-          <img src="../assets/img/ba_exhibition/poster_01.jpg" alt="" class="p-cover">
+          <img src="../assets/project_gallery/BachelorExhibition_cover.jpg" alt="" class="p-cover">
           <h6 class="p-title">Bachelor exhibition posters</h6>
           <p class="p-description">
             Poster series for the bachelor exhibition of my graduation.
           </p>
         </div>
-      </a>
+      </router-link>
 
       <!-- Voyager Newspaper -->
-      <a href="./ps/voyager2.html" target="_self" class="p-container">
+      <router-link to="/projects/voyager" class="p-container">
         <div class="p">
-          <img src="../assets/img/voyager2/voyager_01.jpg" alt="" class="p-cover">
+          <img src="../assets/project_gallery/Voyager_cover.jpg" alt="" class="p-cover">
           <h6 class="p-title">Voyager 2</h6>
           <p class="p-description">
             A travel journal of the Voyager 2 space probe,
             documenting the exploration of the outer solar system and beyond.
           </p>
         </div>
-      </a>
+      </router-link>
 
       <!-- Typo Poster Experimente -->
-      <a href="./ps/experimental_posters.html" target="_blank" class="p-container">
+      <router-link to="/projects/abstract_posters" class="p-container">
         <div class="p">
-          <img src="../assets/img/exp_posters/exp_posters_01.jpg" alt="" class="p-cover">
+          <img src="../assets/project_gallery/AbstractPosters_cover.jpg" alt="" class="p-cover">
           <h6 class="p-title">Poster series</h6>
           <p class="p-description">
             Experiments in composition, depth and colour.
           </p>
         </div>
-      </a>
+      </router-link>
 
       <!-- Fotoausstellung Mons -->
-      <a href="" target="_blank" class="p-container">
+      <router-link to="/projects/mons_exhibition" class="p-container">
         <div class="p">
-          <img src="../assets/img/photo_exhibition/Ausstellungsplakat-1.jpg" alt="" class="p-cover">
+          <img src="../assets/project_gallery/MonsExhibition_cover.jpg" alt="" class="p-cover">
           <h6 class="p-title">Wat is dit?</h6>
           <p class="p-description">
             Poster series for a photography exhibition about an excursion to Mons, Belgium.
           </p>
         </div>
-      </a>
+      </router-link>
 
     </div>
   </div>
@@ -100,8 +100,6 @@ export default {
 
 .p {
   width: 100%;
-  /* background-color: #eee; */
-
 }
 
 .p-cover {
