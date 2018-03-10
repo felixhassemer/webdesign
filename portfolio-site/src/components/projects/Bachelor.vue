@@ -17,6 +17,24 @@
     <p>
       "The tools influence the process and, indirectly, the results." – Casey Reas
     </p>
+
+    <img src="../../assets/projects/Bachelor/autodrawing-1.png" alt="">
+    <img src="../../assets/projects/Bachelor/autodrawing-2.png" alt="">
+    <img src="../../assets/projects/Bachelor/autodrawing-3.png" alt="">
+
+    <img src="../../assets/projects/Bachelor/musicvis-1.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-2.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-3.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-4.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-5.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-6.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-7.png" alt="">
+    <img src="../../assets/projects/Bachelor/musicvis-8.png" alt="">
+
+    <img src="../../assets/projects/Bachelor/figures-1.jpg" alt="">
+
+    <img src="../../assets/projects/Bachelor/skate-1.jpg" alt="">
+    <img src="../../assets/projects/Bachelor/skate-2.jpg" alt="">
   </div>
 </template>
 
@@ -26,4 +44,7 @@ export default {
 </script>
 
 <style scoped>
+img {
+  width: 100%;
+}
 </style>

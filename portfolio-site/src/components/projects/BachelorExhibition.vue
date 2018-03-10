@@ -10,6 +10,12 @@
     <p>
       Each designer contributed a variety of graphical shapes which were then selected and put together into a coherent keyvisual by the group.
     </p>
+
+    <img src="../../assets/projects/BachelorExhibition/board_00.jpg" alt="">
+    <img src="../../assets/projects/BachelorExhibition/poster_01.jpg" alt="">
+    <img src="../../assets/projects/BachelorExhibition/poster_02.jpg" alt="">
+    <img src="../../assets/projects/BachelorExhibition/render_03.jpg" alt="">
+    <img src="../../assets/projects/BachelorExhibition/render_02.jpg" alt="">
   </div>
 </template>
 
@@ -19,4 +25,7 @@ export default {
 </script>
 
 <style scoped>
+img {
+  width: 100%;
+}
 </style>
