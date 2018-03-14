@@ -6,9 +6,9 @@
       <router-link to="/projects/bachelor" class="p-container">
         <div class="p">
           <img src="../assets/project_gallery/Bachelor_cover.png" alt="" class="p-cover">
-          <h6 class="p-title">Processing: Generative Design</h6>
+          <h6 class="p-title">Bachelor thesis - Processing: Generative Design</h6>
           <p class="p-description">
-            My bachelor thesis. A solely digital work, an experiment in learning.
+            A solely digital work, an experiment in self-learning.
           </p>
         </div>
       </router-link>
@@ -90,7 +90,6 @@ export default {
 
 /*---------------    PROJEKTGALERIE       -----------------*/
 
-
 .p-container {
   grid-column: span 12;
   padding: 0 3vw;
@@ -110,13 +109,5 @@ export default {
 .p-title, .p-description {
   padding-left: 3vw;
 }
-
-/* .image {
-  width: 50%;
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  transform: translate(0, -50%);
-} */
 
 </style>

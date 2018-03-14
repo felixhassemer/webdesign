@@ -16,9 +16,6 @@
 
 </template>
 
-<!-- <script src="../libraries/p5.js" type="text/javascript"></script>
-<script src="./scripts/sketch.js"></script> -->
-
 <script>
 export default {
   name: 'App',
@@ -63,16 +60,16 @@ h2 {font-size: 2.488em;}
 h1 {font-size: 3.583em;}
 
 .page-enter-active, .page-leave-active {
-  transition: all 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .page-enter {
-  transform: translateX(50px);
+  /* transform: translateX(50px); */
   opacity: 0;
 }
 
 .page-leave-to {
-  transform: translateX(-50px);
+  /* transform: translateX(-50px); */
   opacity: 0;
 }
 
