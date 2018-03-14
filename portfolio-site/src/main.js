@@ -8,20 +8,32 @@ import {routes} from './routes';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  routes
-})
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return {x: 0, y: 0};
+  }
+});
+
+
+// fix attempt for scroll behavior
+// router.beforeEach(function (to, from, next) {
+//   setTimeout(() => {
+//     window.scrollTo(0, 0);
+//   }, 300);
+//   console.log('scrolled');
+//   next();
+// });
+
+// router.afterEach(() => {
+//   setTimeout(() => {
+//     window.scrollTo(0, 0);
+//   }, 300);
+// });
 
 // registering components globally
 import Navigation from './components/Navigation.vue';
-// import Gallery from './components/Gallery.vue';
-// import About from './components/About.vue';
-// import Contact from './components/Contact.vue';
-// import Footer from './components/Footer.vue';
 
 Vue.component('app-nav', Navigation);
-// Vue.component('app-gallery', Gallery);
-// Vue.component('app-about', About);
-// Vue.component('app-footer', Footer);
 
 Vue.config.productionTip = false
 
